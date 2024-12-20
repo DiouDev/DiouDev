@@ -395,11 +395,10 @@ form textarea {
         left: -10px;
     }
     .a-propos-titre {
-        display: flex
-    ;
+        display: flex;
         width: 100%;
         height: 11%;
-        color: #8591BF;
+        color: #e8ac29;
         font-size: 100px;
         align-items: center;
         font-family: "Londrina Solid";
@@ -410,7 +409,7 @@ form textarea {
 .experience1 {
     width: 1px;
     height: 91px;
-    color: #8591BF;
+    color: #e8ac29;
     position: absolute;
     right: 383px;
     top: 165px;
@@ -421,7 +420,7 @@ form textarea {
 .stage {
     width: 100%;
     height: 137px;
-    color: #ffffff;
+    color: #000000;
     position: absolute;
     left: 5px;
     top: 250px;
@@ -445,7 +444,7 @@ form textarea {
 .scolaire {
     width: 166px;
     height: 100px;
-    color: #8591BF;
+    color: #e8ac29;
     position: absolute;
     left: 8px;
     top: 395px;
@@ -455,7 +454,7 @@ form textarea {
 .ecole {
     width: 300px;
     height: 20px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 15px;
     font-family: "Londrina Solid";
@@ -464,7 +463,7 @@ form textarea {
 .ecole2 {
     width: 375px;
     height: 55px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 15px;
     font-family: "Londrina Solid";
@@ -472,7 +471,7 @@ form textarea {
 }
 .ecole3 {
     width: 375px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 15px;
     font-family: "Londrina Solid";
@@ -481,7 +480,7 @@ form textarea {
 .apptitude {
     width: 0px;
     height: 130px;
-    color: #8591BF;
+    color: #e8ac29;
     position: absolute;
     right: 45Px;
     bottom: 125px;
@@ -496,7 +495,7 @@ form textarea {
 .competence {
     width: 410px;
     height: 148px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-family: "Londrina Solid";
     top: 95px;
@@ -504,7 +503,7 @@ form textarea {
 }
 .competence1 {
     height: 35px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 16px;
     font-family: "Londrina Solid";
@@ -514,7 +513,7 @@ form textarea {
 .competence2 {
     width: 360px;
     height: 25px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 17px;
     font-family: "Londrina Solid";
@@ -524,7 +523,7 @@ form textarea {
 .competence3 {
     width: 360px;
     height: 25px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 17px;
     font-family: "Londrina Solid";
@@ -534,7 +533,7 @@ form textarea {
 .competence4 {
     width: 360px;
     height: 35px;
-    color: #fff;
+    color: #000000;
     position: absolute;
     font-size: 17px;
     font-family: "Londrina Solid";
@@ -545,7 +544,7 @@ form textarea {
     display: flex;
     width: 100%;
     height: 15%;
-    color: #8591BF;
+    color: #e8ac29;
     font-size: 115px;
     flex-direction: row-reverse;
     align-items: center;
@@ -567,7 +566,7 @@ form textarea {
 .monemail {
     width: 330px;
     height: 40px;
-    color: #fff;
+    color: #e8ac29;
     position: absolute;
     font-size: 23px;
     font-family: "Inter";
@@ -584,7 +583,7 @@ form textarea {
 .position1 {
     width: 330px;
     height: 40px;
-    color: #fff;
+    color: #e8ac29;
     position: absolute;
     font-size: 23px;
     font-family: "Inter";
