@@ -164,13 +164,13 @@ html {
 }
 
 .parcours{
-    width: 600px;
+    width: 485px;
     height: 194px;
     color: #fff;
     position: absolute;
     font-size: 22px;
     font-family: "Londrina Solid";
-    right: -435px;
+    right: -320px;
 }
 .ecole{
     width: 600px;
@@ -390,7 +390,7 @@ form textarea {
         height: 25%;
     }
     .luffy {
-        width: 110%;
+        width: 102%;
         height: 74%;
         left: -10px;
     }
@@ -419,7 +419,7 @@ form textarea {
 }
 
 .stage {
-    width: 100%;
+    width: 90%;
     height: 140px;
     color: #ffffff;
     position: absolute;
@@ -602,8 +602,8 @@ form {
     margin-bottom: 60px;
     font-family: "Inter";
     position: absolute;
-    top: 374px;
-    width: 125%;
+    top: 400px;
+    width: 85%;
     height: 300px;
     display: flex
 ;
@@ -615,5 +615,9 @@ form {
 }
 form input[type="text"],form input[type="email"], form textarea{
    background-color: #c8cbd673;
+}
+.parcours {
+    width: 100%;
+    left: 0;
 }
 }
