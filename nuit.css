@@ -409,22 +409,22 @@ form textarea {
 
 .experience1 {
     width: 1px;
-    height: 91px;
+    height: 90px;
     color: #8591BF;
     position: absolute;
     right: 383px;
-    top: 165px;
+    top: 85px;
     font-family: "Londrina Solid";
-    font-size: 65px;
+    font-size: 60px;
 }
 
 .stage {
     width: 100%;
-    height: 137px;
+    height: 140px;
     color: #ffffff;
     position: absolute;
     left: 5px;
-    top: 250px;
+    top: 165px;
     font-size: 15px;
     font-family: "Londrina Solid";
 }
@@ -443,12 +443,12 @@ form textarea {
     right: 70px;
 }
 .scolaire {
-    width: 166px;
-    height: 100px;
+    width: 165px;
+    height: 97px;
     color: #8591BF;
     position: absolute;
     left: 8px;
-    top: 395px;
+    top: 305px;
     font-family: "Londrina Solid";
     font-size: 30px;
 }
@@ -556,7 +556,7 @@ form textarea {
 }
 .contact1 {
     width: 380px;
-    height: 150px;
+    height: 80px;
     color: #fff;
     position: absolute;
     font-size: 10px;
@@ -578,7 +578,7 @@ form textarea {
     width: 32px;
     height: 32px;
     position: absolute;
-    bottom: 57px;
+    bottom: -14px;
     left: 5px;
 }
 .position1 {
@@ -595,7 +595,7 @@ form textarea {
     width: 32px;
     height: 32px;
     position: absolute;
-    bottom: 116px;
+    bottom: 44px;
     left: 6px;
 }
 form {
@@ -604,7 +604,7 @@ form {
     position: absolute;
     top: 374px;
     width: 125%;
-    height: 400px;
+    height: 300px;
     display: flex
 ;
     flex-direction: column;
