@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Solid:wght@100;300;400;900&display=swap'); 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.accueil {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./e0f884878adadaa3df35f58901eb7902.jpeg");
+    background-size: cover;
+    position: relative;
+}
+.luffy {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 80px;
+    width: 93dvw;
+    height: 130dvh;
+}
+.nav {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Inter";
+    flex-direction: row;
+    font-size: 25px;
+}
+.links {
+    color: #e8ac29;
+    text-decoration: none;
+    z-index: 2;
+}
+.title {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 600%;
+    font-family: "Londrina Solid";
+    font-weight: 400;
+    font-style: normal;
+    color: #e8ac29
+
+}
+.reseau{
+    width: 60px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10%;
+    left: -10px;
+
+}
+.reseaux{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 0 50% 50% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rezoimg {
+    width: 70%;
+    height: 70%
+}
+
+.a-propos {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Ordi.jpg);
+    position: relative;
+    background-size: 100%   100%;
+}
+
+.a-propos-titre {
+    display: flex;
+    width: 35%;
+    height: 50%;
+    color: #000000;
+    font-size: 140px;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: "Londrina Solid";
+}
+
+.experience1 {
+    width: 100px;
+    height: 100px;
+    color: #e8ac29;
+    position: absolute;
+    right: 383px;
+    top: 135px;
+    font-family: "Londrina Solid";
+    font-size: 85px;
+}
+
+.scolaire {
+    width: 100px;
+    height: 100px;
+    color: #e8ac29;
+    position: absolute;
+    right: 50%;
+    top: 430px;
+    font-family: "Londrina Solid";
+    font-size: 45px;
+}
+.apptitude {
+    width: 100px;
+    height: 100px;
+    color: #e8ac29;
+    position: absolute;
+    right: 200Px;
+    bottom: 150px;
+    font-family: "Londrina Solid";
+    font-size: 46px;
+}
+
+.apptitude1{
+    position: absolute;
+    right: 0px;
+}
+
+
+
+.stage {
+    width: 705px;
+    height: 200px;
+    color: #0a0404;
+    position: absolute;
+    right: 70px;
+    top: 270px;
+    font-size: 21px;
+    font-family: "Londrina Solid";
+}
+.stage1 {
+    position: absolute;
+    right: 300px;
+    
+}
+.stage2 {
+    position: absolute;
+    top: 20px;
+}
+.stage3 {
+    position: absolute;
+    top: 90px;
+    right: 300px;
+}
+.stage4{
+    position: absolute;
+    top: 110px;
+}
+
+.parcours{
+    width: 600px;
+    height: 194px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+    right: -435px;
+}
+.ecole{
+    width: 600px;
+    height: 194px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+}
+.ecole2 {
+    width: 818px;
+    height: 30px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+    top: 50px;
+}
+.ecole3 {
+    width: 700px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+    top: 90px;
+}
+.competence { 
+    width: 625px;
+    height: 150px;
+    color: #000000;
+    position: absolute;
+    font-family: "Londrina Solid";
+    top: 90px;
+    left: -375px;
+}
+
+.competence1 { 
+    height: 140px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+    top: 17px;
+}
+.competence2 { 
+    width: 660px;
+    height: 150px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+    top: 50px;
+}
+.competence3 { 
+    width: 640px;
+    height: 70px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+    top: 79px;
+}
+.competence4 { 
+    width: 559px;
+    height: 35px;
+    color: #000000;
+    position: absolute;
+    font-size: 22px;
+    font-family: "Londrina Solid";
+    top: 115px;
+}
+
+.Contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./290200769757163241\ \(1\).jpg");
+    background-size: cover;
+    position: relative; 
+}
+
+.contact-titre {
+    display: flex;
+    width: 35%;
+    height: 20%;
+    color: #e8ac29;
+    font-size: 140px;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: "Londrina Solid";
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}
+
+.contact1 {
+    width: 560px;
+    height: 150px;
+    color: #fff;
+    position: absolute;
+    font-size: 25px;
+    font-family: "Inter";
+    bottom: 364px;
+    right: 110px;
+}
+
+.position1 {
+    width: 400px;
+    height: 40px;
+    color: #c68a36;
+    position: absolute;
+    font-size: 25px;
+    font-family: "Inter";
+    left: 40px;
+    top: 5px;
+}
+
+.monemail{
+    width: 400px;
+    height: 40px;
+    color: #e8ac29;
+    position: absolute;
+    font-size: 25px;
+    font-family: "Inter";
+    top: 62px;
+    left: 40px;
+}
+
+.logo-marqueur{ 
+    width: 35px;
+    height: 35px;
+}
+
+.logo-email{ 
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 55px;
+    left: 0px;
+}
+
+
+.message{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+}
+
+
+form{
+    margin-bottom: 60px;
+    font-family: "Inter";
+    position: absolute;
+    top: 300px;
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    
+}
+    
+
+
+form button {
+    align-self: center; /* Centre le bouton horizontalement */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        position: absolute;
+    bottom: -35px;
+    right: 35%;
+}
+
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #e8ac29;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 65%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e8ac29;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-family: "Inter";
+    background-color: #C8CBD6;
+}
+
+form textarea {
+    height: 180px;
+    width: 65%;
+    resize: none;
+    font-family: "inter";
+    font-size: 20px;
+}
+@media screen and (max-width:767px) {
+    
+    .title {
+        font-size: 300%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 25%;
+    }
+    .luffy {
+        width: 110%;
+        height: 74%;
+        left: -10px;
+    }
+    .a-propos-titre {
+        display: flex
+    ;
+        width: 100%;
+        height: 11%;
+        color: #8591BF;
+        font-size: 100px;
+        align-items: center;
+        font-family: "Londrina Solid";
+        flex-direction: row;
+        justify-content: center;
+    }    
+
+.experience1 {
+    width: 1px;
+    height: 91px;
+    color: #8591BF;
+    position: absolute;
+    right: 383px;
+    top: 165px;
+    font-family: "Londrina Solid";
+    font-size: 65px;
+}
+
+.stage {
+    width: 100%;
+    height: 137px;
+    color: #ffffff;
+    position: absolute;
+    left: 5px;
+    top: 250px;
+    font-size: 15px;
+    font-family: "Londrina Solid";
+}
+.stage1 {
+    position: absolute;
+    right: 70px;
+}
+
+.stage2 {
+    position: absolute;
+    top: 20px;
+}
+.stage3 {
+    position: absolute;
+    top: 90px;
+    right: 70px;
+}
+.scolaire {
+    width: 166px;
+    height: 100px;
+    color: #8591BF;
+    position: absolute;
+    left: 8px;
+    top: 395px;
+    font-family: "Londrina Solid";
+    font-size: 30px;
+}
+.ecole {
+    width: 300px;
+    height: 20px;
+    color: #fff;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Londrina Solid";
+    left: 49px;
+}
+.ecole2 {
+    width: 375px;
+    height: 55px;
+    color: #fff;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Londrina Solid";
+    top: 45px;
+}
+.ecole3 {
+    width: 375px;
+    color: #fff;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Londrina Solid";
+    top: 90px;
+}
+.apptitude {
+    width: 0px;
+    height: 130px;
+    color: #8591BF;
+    position: absolute;
+    right: 45Px;
+    bottom: 125px;
+    font-family: "Londrina Solid";
+    font-size: 30px;
+}
+.apptitude1 {
+    right: 115px;
+    position: absolute;
+    bottom: 26px;
+}
+.competence {
+    width: 410px;
+    height: 148px;
+    color: #fff;
+    position: absolute;
+    font-family: "Londrina Solid";
+    top: 95px;
+    right: -70px;
+}
+.competence1 {
+    height: 35px;
+    color: #fff;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Londrina Solid";
+    top: 10px;
+    left: 40px;
+}
+.competence2 {
+    width: 360px;
+    height: 25px;
+    color: #fff;
+    position: absolute;
+    font-size: 17px;
+    font-family: "Londrina Solid";
+    top: 60px;
+    left: 40px;
+}
+.competence3 {
+    width: 360px;
+    height: 25px;
+    color: #fff;
+    position: absolute;
+    font-size: 17px;
+    font-family: "Londrina Solid";
+    top: 90px;
+    left: 40px;
+}
+.competence4 {
+    width: 360px;
+    height: 35px;
+    color: #fff;
+    position: absolute;
+    font-size: 17px;
+    font-family: "Londrina Solid";
+    top: 120px;
+    left: 40px;
+}
+.contact-titre {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    color: #8591BF;
+    font-size: 115px;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-family: "Londrina Solid";
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+.contact1 {
+    width: 380px;
+    height: 150px;
+    color: #fff;
+    position: absolute;
+    font-size: 10px;
+    font-family: "Inter";
+    bottom: 460px;
+    left: 10px;
+}
+.monemail {
+    width: 330px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    font-size: 23px;
+    font-family: "Inter";
+    top: 63px;
+    left: 40px;
+}
+.logo-email {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 57px;
+    left: 5px;
+}
+.position1 {
+    width: 330px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    font-size: 23px;
+    font-family: "Inter";
+    left: 40px;
+    top: 5px;
+}
+.logo-marqueur {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 116px;
+    left: 6px;
+}
+form {
+    margin-bottom: 60px;
+    font-family: "Inter";
+    position: absolute;
+    top: 374px;
+    width: 125%;
+    height: 400px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Contact {
+    background-position-x: -95px;
+}
+form input[type="text"],form input[type="email"], form textarea{
+   background-color: #c8cbd673;
+}
+}
